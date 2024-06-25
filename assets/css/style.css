@@ -1,0 +1,16 @@
+.nav-link{
+    color: white !important;
+}
+.hero{
+    background-image: url('../images/bg_hero.webp');
+}
+._0btn{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+._0btn:hover{
+    background-color: white;
+    transition: .5s;
+    color: black !important;
+}

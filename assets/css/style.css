@@ -12,14 +12,44 @@ body{
 }
 .hero{
     background-image: url('../images/bg_hero.webp');
+    padding-bottom: 300px;
 }
 ._0btn{
     border-style: solid;
     border-color: white;
+    /* border-image: linear-gradient(to right, #ff9a9e, #fad0c4) !important; */
     border-width: 2px;
 }
 ._0btn:hover{
     background-color: white;
     transition: .5s;
     color: black !important;
+}
+.section1{
+    background-color: black;
+    padding: 100px 0px 100px 0px;
+}
+.section1 h6{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.section1 h1{
+    font-weight: 900;
+    font-size: 70px;
+}
+.section2{
+    padding: 100px 0px 100px 0px;
+}
+.section2 i{
+    font-size: 40px;
+    color: rgb(116,58,213);
+}
+.section2 h4{
+    font-size: 18px;
+    font-weight: 900;
+}
+.section2 ._0col:hover{
+    background: linear-gradient(to right, rgb(116,58,213), rgb(229,176,211));
+    border-radius: 15px;
+    color: white;
 }

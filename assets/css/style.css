@@ -137,3 +137,14 @@ body{
     color: blue !important;
     transition: .3s;
 }
+.features{
+    padding: 180px 0px 0px 0px;
+}
+.feature1{
+    padding-top: 50px !important;
+    border-radius: 5px;
+}
+.feature1:hover{
+    background: linear-gradient(to right, rgb(116,58,213), rgb(229,176,211));
+    color: white;
+}

@@ -10,6 +10,11 @@ body{
 .nav-link{
     color: white !important;
 }
+.menutwo li{
+    list-style-type: none;
+    text-align: left;
+    font-size: 12px;
+}
 .hero{
     background-image: url('../images/bg_hero.webp');
     padding-bottom: 300px;
@@ -40,16 +45,68 @@ body{
 .section2{
     padding: 100px 0px 100px 0px;
 }
+.subheading{
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.heading{
+    font-size: 80px;
+    line-height: 1;
+}
+.feature{
+    padding: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 10px;
+    
+}
+.section2{
+    background-color: #efefef;
+}
 .section2 i{
     font-size: 40px;
-    color: rgb(116,58,213);
+    color: #743ad5;
+    margin-bottom: 20px;
 }
 .section2 h4{
     font-size: 18px;
     font-weight: 900;
 }
+.section2 p{
+    font-size: 15px;
+    line-height: 1.7;
+}
 .section2 ._0col:hover{
     background: linear-gradient(to right, rgb(116,58,213), rgb(229,176,211));
     border-radius: 15px;
     color: white;
+}
+.section3{
+    background-color: #000;
+}
+.pricing{
+    padding: 40px;
+    background-color: #743ad5;
+    text-align: center;
+    border-radius: 7px;
+}.pricing h3{
+    color: #fff;
+    font-size: 30px;
+}
+.pricing p{
+    color: rgba(255,255,255,0.5);
+}
+.line{
+    margin-top: 40px 0px;
+    height: 1px;
+    width: 100%;
+    color: rgba(255,255,255,0.2);
+    
+}
+.section4{
+    background-image: url("/action/assets/images/bg_hero_2.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }

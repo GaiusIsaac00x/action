@@ -53,6 +53,7 @@ body{
 .heading{
     font-size: 80px;
     line-height: 1;
+    font-weight: 900;
 }
 .feature{
     padding: 30px;
@@ -63,12 +64,16 @@ body{
 }
 .section2{
     background-color: #efefef;
+    height: 1250px;
 }
 .section2 i{
     font-size: 40px;
     color: #743ad5;
     margin-bottom: 20px;
 }
+._0posi2{
+    margin-top: -70px;
+  }
 .section2 h4{
     font-size: 18px;
     font-weight: 900;
@@ -84,6 +89,16 @@ body{
 }
 .section3{
     background-color: #000;
+    position: relative;
+}
+._0posi{
+    position: absolute;
+    z-index: 1000;
+    left: 4%;
+}
+.pricex{
+    font-weight: 900;
+    font-size: 40px;
 }
 .pricing{
     padding: 40px;
@@ -101,12 +116,24 @@ body{
     margin-top: 40px 0px;
     height: 1px;
     width: 100%;
-    color: rgba(255,255,255,0.2);
+    height: 2px;
+    background-color: rgba(255,255,255,0.2);
     
 }
 .section4{
-    background-image: url("/action/assets/images/bg_hero_2.jpg.webp");
-    background-size: cover;
+    background-image: url("../images/bg_hero_2.jpg.webp");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
+}
+._0cus{
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: azure;
+}
+._0cus:hover{
+    background-color: white;
+    color: blue !important;
+    transition: .3s;
 }

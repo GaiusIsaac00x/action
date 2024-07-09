@@ -166,10 +166,18 @@ body{
     border-style: solid;
     border-color: azure;
 }
+._0bordbtm{
+    border-bottom: 1px solid rgb(204,204,204) !important;
+    background-color: transparent;
+}
+
 ._0cus:hover{
     background-color: white;
     color: blue !important;
     transition: .3s;
+}
+.section6 ._0pad{
+    padding: 110px 0px 110px 50px !important;
 }
 .features{
     padding: 180px 0px 0px 0px;

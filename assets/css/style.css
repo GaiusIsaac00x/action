@@ -19,17 +19,50 @@ body{
     background-image: url('../images/bg_hero.webp');
     padding-bottom: 300px;
 }
-._0btn{
-    border-style: solid;
-    border-color: white;
-    /* border-image: linear-gradient(to right, #ff9a9e, #fad0c4) !important; */
-    border-width: 2px;
+.btn-primary-gradient{
+    border: 0px;
+    display: inline-block;
+    padding: 16px 32px;
+    color: #f0f0f0;
+    border-radius: 100px;
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
-._0btn:hover{
-    background-color: white;
-    transition: .5s;
-    color: black !important;
+.btn-primary-gradient::before{
+    content: '';
+    background-color: #161a20;
+    border-radius: 100px;
+    position: absolute;
+    z-index: -2;
+    top: 0px;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
 }
+.btn-primary-gradient::after{
+    content: '';
+    background-color: #161a20;
+    border-radius: 100px;
+    position: absolute;
+    z-index: -1;
+    top: 2px;
+    bottom:2px;
+    left: 2px;
+    right: 2px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-primary-gradient:hover
+{   z-index: 0;
+    box-shadow: none;
+    outline: none;
+    background: linear-gradient(to right, rgb(116,58,213), #da1899);
+    
+}
+    
 .section1{
     background-color: black;
     padding: 100px 0px 100px 0px;
@@ -166,3 +199,22 @@ body{
     height: 100px;
     border-radius: 100%;
 }
+.about-section{
+    padding-top: 150px;
+    padding-bottom: 112px;
+}
+.about2{
+    margin-top: 128px !important;
+ }
+ .lead{
+    font-weight: 300;
+    font-size: 18px;
+ }
+ .number{
+    font-size:70px;
+    font-weight: 700;
+    color: #743ad5;
+ }
+ .caption{
+    font-size: 12px;
+ }
